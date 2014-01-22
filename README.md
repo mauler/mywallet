@@ -1,15 +1,36 @@
+# mywallet
 
-     #    #   #   #  #    #    ##    #       #       ######   #####
-     ##  ##    # #   #    #   #  #   #       #       #          #
-     # ## #     #    #    #  #    #  #       #       #####      #
-     #    #     #    # ## #  ######  #       #       #          #
-     #    #     #    ##  ##  #    #  #       #       #          #
-     #    #     #    #    #  #    #  ######  ######  ######     #
-    ----------------------------------------------------------------- 
+I created this project to test [Cloud9 IDE](http://c9.io/) Cloud9 IDE features and 
+also create a full distributed software hosted at [Ubuntu PPA](https://launchpad.net/ubuntu/+ppas/)
 
-Sample project to test cloud9 ide features.
+The idea is a simple wallet with transactions schedulings and repetitions that 
+works without using a pré-defined syntax but writing with you want, like:
+    
+    $ mw deposit 500 monthly at day 5
+   
+    
+or:
 
-Resources
-=========
+    $ mw deposit monthly at day 5 500
 
-http://pymotw.com/2/cmd/
+
+## notes
+
+ * The code is not pep8 validated because I didn't find any helper on editor (Cloud9) to do this (yet).
+
+ 
+## usage
+
+Define a deposit every day 5 monthly as My salary:
+    
+    $ mw deposit 1000 monthly at day 5 My salary
+    
+
+Define a withdraw every month (day 1):
+    
+    $ mw withdraw 100 monthly
+    
+
+Get balance in my 5 months:
+    
+    $ mw balance 5 months
