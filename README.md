@@ -4,7 +4,7 @@ I created this project to test [Cloud9 IDE](http://c9.io/) Cloud9 IDE features a
 also create a full distributed software hosted at [Ubuntu PPA](https://launchpad.net/ubuntu/+ppas/)
 
 The idea is a simple wallet with transactions schedulings and repetitions that 
-works without using a pré-defined syntax but writing with you want, like:
+works without using a pré-defined syntax but writing what you want, like:
     
     $ mw deposit 500 monthly at day 5
    
