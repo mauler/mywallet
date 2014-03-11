@@ -31,6 +31,6 @@ Define a withdraw every month (day 1):
     $ mw withdraw 100 monthly
     
 
-Get balance in my 5 months:
+Return balance in the next 5 months:
     
     $ mw balance 5 months
